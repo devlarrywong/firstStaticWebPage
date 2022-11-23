@@ -4,6 +4,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  background: #282d35 url('./assets/react-icon-large.png') no-repeat;
+  background-position: right bottom;
 }
 
 header {
@@ -16,23 +18,52 @@ header {
 
 .Header__logo {
   height: 30px;
-  /* margin-left: 30px; */
   padding-right: 10px;
 }
 
 .Header__logo-name {
   font-weight: 700;
   font-size: 22px;
-  line-height: 27px;
   letter-spacing: -0.05em;
   color: #61dafb;
-  margin-right:auto;
+  margin-right: auto;
 }
 
 .Header__title {
   font-weight: 600;
   font-size: 16px;
-  line-height: 19px;
   text-align: right;
   color: #deebf8;
+}
+
+main {
+  margin: 30px;
+}
+
+.Main__title {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+
+.Main__details {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2rem;
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: '\2022';
+  color: #61dafb;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5rem;
+  font-size: 1.5rem;
 }
