@@ -3,7 +3,7 @@
 </p>
 
 # About
-This is a project from Scrimba free course "Learn React for free". I tried to 
+This is a project from Scrimba free course "Learn React for free".
 
 
 # What I have learned in this project
